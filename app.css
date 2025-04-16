@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
+
+.btn-primary {
+  background-color: #0ea5e9;
+}
+.btn-primary:hover {
+  background-color: #0369a1;
+}
